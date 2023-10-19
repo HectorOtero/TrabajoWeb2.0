@@ -1,0 +1,14 @@
+{
+    "EKKO":{
+        "img":"./img/Ekko.jpeg",
+        "name":"Ekko vs Jinx"
+    },
+    "VIANDCAITLYN":{
+        "img":"./img/ViyCaitlyn.jpg",
+        "name":"Vi and Caitlyn"
+    },
+    "VIANDJINX":{
+        "img":"./img/ViAndJinx.jpg",
+        "name":"Vi and Power"
+    }
+}

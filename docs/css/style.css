@@ -1,0 +1,108 @@
+html {
+    font-family: 'Gabarito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: justify;
+
+}
+.top-img{
+    
+    background-image: url("../img/Arcane.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.top-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 200%;
+}
+
+.sombra-de-titulo{
+    text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+}
+
+.indice{
+    scroll-behavior:smooth;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.txt-intro{
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: black;
+}
+
+.texto-de-introduccion{
+    font-size: 150%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+}
+
+
+summary{
+    font-size: 110%;
+    margin: -0.8em -0.8em 0;
+    padding: 0.8em;
+    text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: black;
+}
+
+.img-personajes{
+    max-width: 200px;
+    max-height: auto;
+}
+
+.margentabla{
+    max-width: 100%;
+    padding: 0 20px 20px 30rem;
+}
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer{
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: black;
+}
+
+.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark {
+    background-color: black;
+    color: white;
+
+  }
+
+  .fotosjson{
+    height: 400px;
+    width: auto;
+  }
