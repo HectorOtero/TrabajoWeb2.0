@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   async function Picture1() {
-    let respuesta = await fetch("js/imgs.json");
+    let respuesta = await fetch("JS/imgs.json");
     let datos = await respuesta.json();
   
     let $info = document.querySelector("#info");
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     async function Picture2() {
-        let respuesta = await fetch("js/imgs.json");
+        let respuesta = await fetch("JS/imgs.json");
         let datos = await respuesta.json();
       
         let $info = document.querySelector("#info2");
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         async function Picture3() {
-            let respuesta = await fetch("js/imgs.json");
+            let respuesta = await fetch("JS/imgs.json");
             let datos = await respuesta.json();
           
             let $info = document.querySelector("#info3");
